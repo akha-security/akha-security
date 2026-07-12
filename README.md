@@ -29,7 +29,7 @@ status:     Currently developing → Akca (vulnerability scanner)
 
 <br/>
 
-## 🛠️ Arsenal — Geliştirdiğim Araçlar
+## 🛠️ Arsenal — Tools I Build
 
 <table width="100%">
 <tr>
@@ -37,9 +37,9 @@ status:     Currently developing → Akca (vulnerability scanner)
 
 ### 🕸️ [Akha-XSS](https://github.com/akha-security/akha-xss)
 
-**Gelişmiş XSS Detection Framework**
+**Advanced XSS Detection Framework**
 
-Modern web uygulamalarında reflected, stored ve DOM tabanlı XSS zafiyetlerini otomatik olarak tespit eden framework.
+Automatically detects reflected, stored, and DOM-based XSS vulnerabilities in modern web applications.
 
 `Python` `Public` ⭐ 1
 
@@ -50,7 +50,7 @@ Modern web uygulamalarında reflected, stored ve DOM tabanlı XSS zafiyetlerini 
 
 **Source Map Intelligence Tool**
 
-`.js.map` dosyalarını analiz ederek içlerinde gizli kalmış endpoint, secret ve hassas bilgileri ortaya çıkarır.
+Analyzes `.js.map` files to uncover hidden endpoints, secrets, and sensitive information left exposed in source maps.
 
 `Python` `Public`
 
@@ -61,7 +61,7 @@ Modern web uygulamalarında reflected, stored ve DOM tabanlı XSS zafiyetlerini 
 
 **Bug Bounty Vulnerability Scanner** — 🚧 *In Development*
 
-Bug bounty avcıları için uçtan uca zafiyet taraması yapacak yeni nesil scanner. Yakında...
+A next-generation scanner built for bug bounty hunters, designed for fast and reliable vulnerability discovery. Coming soon.
 
 `Public` `Coming Soon`
 
@@ -71,21 +71,7 @@ Bug bounty avcıları için uçtan uca zafiyet taraması yapacak yeni nesil scan
 
 <br/>
 
-## 📡 Metodoloji
-
-```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐     ┌──────────────┐
-│   RECON     │ ──▶ │  SOURCE MAP  │ ──▶ │  XSS HUNT   │ ──▶ │  FULL SCAN   │
-│  Discovery  │     │   Analysis   │     │  Detection  │     │   (Akca)     │
-└─────────────┘     └──────────────┘     └─────────────┘     └──────────────┘
-      ▲                                                              │
-      └──────────────────────────────────────────────────────────────┘
-                          Continuous Bug Bounty Loop
-```
-
-<br/>
-
-## 📊 GitHub İstatistikleri
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -110,7 +96,7 @@ Bug bounty avcıları için uçtan uca zafiyet taraması yapacak yeni nesil scan
 
 <br/>
 
-## 🔗 Bağlantılar
+## 🔗 Connect
 
 <div align="center">
 
@@ -122,7 +108,9 @@ Bug bounty avcıları için uçtan uca zafiyet taraması yapacak yeni nesil scan
 
 <div align="center">
 
-### 💬 *"Her satır kodda bir zafiyet, her .map dosyasında bir sır saklanır."*
+### 💬 *"Open-sourcing offensive security tools, one vulnerability class at a time."*
+
+**Star a repo, open an issue, or drop a PR — every contribution helps the bug bounty community.**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,100:0d1117&height=100&section=footer" width="100%"/>
 
