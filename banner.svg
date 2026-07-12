@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#0d1420"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#16202c" stroke-width="1"/>
+    </pattern>
+    <clipPath id="subClip">
+      <rect x="290" y="163" width="0" height="26">
+        <animate attributeName="width" from="0" to="640" dur="2s" begin="0.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.55"/>
+
+  <!-- matrix rain columns, left side -->
+  <g font-family="'Courier New', monospace" font-size="14" fill="#0e7490" opacity="0.55">
+    <text x="40"><tspan x="40" dy="16">1</tspan><tspan x="40" dy="16">0</tspan><tspan x="40" dy="16">A</tspan><tspan x="40" dy="16">F</tspan><tspan x="40" dy="16">3</tspan><tspan x="40" dy="16">7</tspan><tspan x="40" dy="16">C</tspan><tspan x="40" dy="16">9</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,320" dur="5s" repeatCount="indefinite"/>
+    </text>
+    <text x="75"><tspan x="75" dy="16">E</tspan><tspan x="75" dy="16">1</tspan><tspan x="75" dy="16">B</tspan><tspan x="75" dy="16">0</tspan><tspan x="75" dy="16">5</tspan><tspan x="75" dy="16">D</tspan><tspan x="75" dy="16">2</tspan><tspan x="75" dy="16">A</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-320" to="0,300" dur="4.2s" begin="0.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="110"><tspan x="110" dy="16">0</tspan><tspan x="110" dy="16">1</tspan><tspan x="110" dy="16">F</tspan><tspan x="110" dy="16">4</tspan><tspan x="110" dy="16">B</tspan><tspan x="110" dy="16">8</tspan><tspan x="110" dy="16">6</tspan><tspan x="110" dy="16">C</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-280" to="0,300" dur="6s" begin="1.4s" repeatCount="indefinite"/>
+    </text>
+    <text x="145"><tspan x="145" dy="16">3</tspan><tspan x="145" dy="16">A</tspan><tspan x="145" dy="16">1</tspan><tspan x="145" dy="16">E</tspan><tspan x="145" dy="16">7</tspan><tspan x="145" dy="16">0</tspan><tspan x="145" dy="16">D</tspan><tspan x="145" dy="16">9</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-240" to="0,320" dur="4.8s" begin="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- matrix rain columns, right side -->
+  <g font-family="'Courier New', monospace" font-size="14" fill="#0e7490" opacity="0.55">
+    <text x="1055"><tspan x="1055" dy="16">C</tspan><tspan x="1055" dy="16">9</tspan><tspan x="1055" dy="16">2</tspan><tspan x="1055" dy="16">F</tspan><tspan x="1055" dy="16">0</tspan><tspan x="1055" dy="16">A</tspan><tspan x="1055" dy="16">6</tspan><tspan x="1055" dy="16">1</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-300" to="0,300" dur="5.4s" begin="0.3s" repeatCount="indefinite"/>
+    </text>
+    <text x="1090"><tspan x="1090" dy="16">B</tspan><tspan x="1090" dy="16">0</tspan><tspan x="1090" dy="16">D</tspan><tspan x="1090" dy="16">1</tspan><tspan x="1090" dy="16">4</tspan><tspan x="1090" dy="16">A</tspan><tspan x="1090" dy="16">7</tspan><tspan x="1090" dy="16">E</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,320" dur="4.5s" begin="1.1s" repeatCount="indefinite"/>
+    </text>
+    <text x="1125"><tspan x="1125" dy="16">5</tspan><tspan x="1125" dy="16">F</tspan><tspan x="1125" dy="16">3</tspan><tspan x="1125" dy="16">8</tspan><tspan x="1125" dy="16">0</tspan><tspan x="1125" dy="16">C</tspan><tspan x="1125" dy="16">2</tspan><tspan x="1125" dy="16">B</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-320" to="0,300" dur="5.9s" begin="1.8s" repeatCount="indefinite"/>
+    </text>
+    <text x="1160"><tspan x="1160" dy="16">A</tspan><tspan x="1160" dy="16">1</tspan><tspan x="1160" dy="16">6</tspan><tspan x="1160" dy="16">E</tspan><tspan x="1160" dy="16">9</tspan><tspan x="1160" dy="16">0</tspan><tspan x="1160" dy="16">D</tspan><tspan x="1160" dy="16">4</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-240" to="0,300" dur="4.9s" begin="0.9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- HUD corner brackets -->
+  <g stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M 20 60 L 20 20 L 60 20" stroke-dasharray="80" stroke-dashoffset="80">
+      <animate attributeName="stroke-dashoffset" from="80" to="0" dur="1.2s" fill="freeze"/>
+    </path>
+    <path d="M 1180 60 L 1180 20 L 1140 20" stroke-dasharray="80" stroke-dashoffset="80">
+      <animate attributeName="stroke-dashoffset" from="80" to="0" dur="1.2s" fill="freeze"/>
+    </path>
+    <path d="M 20 240 L 20 280 L 60 280" stroke-dasharray="80" stroke-dashoffset="80">
+      <animate attributeName="stroke-dashoffset" from="80" to="0" dur="1.2s" fill="freeze"/>
+    </path>
+    <path d="M 1180 240 L 1180 280 L 1140 280" stroke-dasharray="80" stroke-dashoffset="80">
+      <animate attributeName="stroke-dashoffset" from="80" to="0" dur="1.2s" fill="freeze"/>
+    </path>
+  </g>
+
+  <!-- scanline -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#scanGrad)">
+    <animate attributeName="y" values="0;300;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- title -->
+  <text x="600" y="140" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold"
+        font-size="66" letter-spacing="6" fill="#eafcff" filter="url(#glow)">
+    AKHA SECURITY
+    <animate attributeName="opacity" values="1;0.88;1;1;0.92;1;1" dur="3.4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- typed subtitle -->
+  <g clip-path="url(#subClip)">
+    <text x="290" y="182" font-family="'Courier New', monospace" font-size="21" fill="#22d3ee">root@akha-security:~# whoami</text>
+  </g>
+  <rect x="928" y="164" width="10" height="22" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="2.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- tagline -->
+  <text x="600" y="222" text-anchor="middle" font-family="'Courier New', monospace" font-size="14"
+        letter-spacing="3" fill="#7d8590" opacity="0">
+    OFFENSIVE SECURITY // BUG BOUNTY // TOOL DEVELOPMENT
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.2s" fill="freeze"/>
+  </text>
+</svg>

@@ -1,31 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0891b2,100:22d3ee&height=220&section=header&text=AKHA%20SECURITY&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Offensive%20Security%20%7C%20Bug%20Bounty%20%7C%20Tool%20Development&descAlignY=58&descSize=18" width="100%"/>
-
-<a href="https://github.com/akha-security">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Bug+Bounty+Hunter+%26+Security+Tool+Developer;Building+Offensive+Security+Tooling;Finding+What+Others+Miss+in+.js.map+Files;XSS+%7C+Recon+%7C+Vulnerability+Scanning" alt="Typing SVG" />
-</a>
-
-<br/>
+<img src="assets/banner.svg" width="100%" alt="AKHA Security banner"/>
 
 <img src="https://komarev.com/ghpvc/?username=akha-security&label=Profile%20Views&color=0891b2&style=for-the-badge" alt="profile views"/>
 <img src="https://img.shields.io/github/followers/akha-security?label=Followers&style=for-the-badge&color=0891b2" alt="followers"/>
 <img src="https://img.shields.io/badge/Status-Hunting-22d3ee?style=for-the-badge&logo=target&logoColor=white" alt="status"/>
 
 </div>
-
-<br/>
-
-## `whoami`
-
-```yaml
-name:       AKHA Security
-role:       Bug Bounty Hunter / Security Researcher
-focus:      Offensive Tooling & Reconnaissance Automation
-mission:    Build tools that find what manual testing misses
-languages:  Python, JavaScript
-status:     Currently developing → Akca (vulnerability scanner)
-```
 
 <br/>
 
@@ -68,6 +49,22 @@ A next-generation scanner built for bug bounty hunters, designed for fast and re
 </td>
 </tr>
 </table>
+
+<br/>
+
+## 💻 Live Demo
+
+<div align="center">
+<img src="assets/terminal.svg" width="100%" alt="terminal demo"/>
+</div>
+
+<br/>
+
+## 🐍 Contribution Graph
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/akha-security/akha-security/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake animation"/>
+</div>
 
 <br/>
 
