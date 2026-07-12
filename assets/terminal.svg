@@ -17,11 +17,11 @@
   <text x="450" y="30" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#7d8590">akha-security — zsh</text>
 
   <g font-family="'Courier New', monospace" font-size="15">
-    <g clip-path="url(#c1)"><text x="30" y="75" fill="#22d3ee">$ akha-xss scan --target *.example.com --deep</text></g>
+    <g clip-path="url(#c1)"><text x="30" y="75" fill="#22d3ee">$ akha-xss scan --target example.com --deep</text></g>
     <g clip-path="url(#c2)"><text x="30" y="105" fill="#4ade80">[+] Found 3 potential XSS vectors</text></g>
-    <g clip-path="url(#c3)"><text x="30" y="135" fill="#22d3ee">$ akha-sourcemap extract app.min.js.map</text></g>
+    <g clip-path="url(#c3)"><text x="30" y="135" fill="#22d3ee">$ akha-sourcemap -u example.com/app.min.js.map</text></g>
     <g clip-path="url(#c4)"><text x="30" y="165" fill="#4ade80">[+] Extracted 12 endpoints, 2 exposed API keys</text></g>
-    <g clip-path="url(#c5)"><text x="30" y="195" fill="#22d3ee">$ akca run --mode full --target scope.txt</text></g>
+    <g clip-path="url(#c5)"><text x="30" y="195" fill="#22d3ee">$ akca -u example.com</text></g>
     <g clip-path="url(#c6)"><text x="30" y="225" fill="#fbbf24">[*] Scanning... generating vulnerability report</text></g>
   </g>
 
